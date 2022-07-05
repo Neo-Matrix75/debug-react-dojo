@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Beers(beers) {
+export default function Beers({beers}) {
   return beers.map((beer) => {
     return (
       <tr key={beer.name}>
